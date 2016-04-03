@@ -1,32 +1,139 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+    
 <style>
     body {
-        background-color: dimgray
+        background-color: darkred;
+        text-align: center;
+        
+        
+        
     }
     
+    h1 {
+        border-style: solid;
+        color: blue;
+        border-color: black;
+        
+        
+        
+    }
+    p.mix {
+        border-style: none none solid none;
+    }
+    
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        height: 105px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+   
+  .button2 {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        height: 105px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}  
     
     
+    h2 {
+        color: blue;
+    }    
+
     
+
 </style>
     
-    
-    
-    
-    
-    
-    
-    
-    
-<h1> Welcome To The School Topic Study Guides </h1>
-    
 
+    
+    
+    
+    
+    
     
 
 
 
+<h1> Welcome To Height's Study Guide </h1>
+    
+<p class="mix"></p> 
+    
+<h2> Choose Your Section: </h2>    
+
+<button class="button" style="vertical-align:middle"><span>Middle School </span></button>
+
+<button class="button2" style="vertical-align:middle">
+<span>High School</span></button>
 
 
 
